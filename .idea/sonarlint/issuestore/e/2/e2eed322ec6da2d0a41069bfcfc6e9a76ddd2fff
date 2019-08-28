@@ -1,0 +1,7 @@
+
+^squid:S1068)";Remove this unused "collaborationAPIService" private field.(­Ú²Şûÿÿÿÿ8¤Ü’É-
+nsquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(×¶şÿÿÿÿ8¤Ü’É-
+‰squid:S1450)"fRemove the "collaborationAPIService" field and declare it as a local variable in the relevant methods.(­Ú²Şûÿÿÿÿ8¤Ü’É-
+rsquid:S1450+"URemove the "userId" field and declare it as a local variable in the relevant methods.(íÃË8¤Ü’É-
+Gsquid:S1068+"*Remove this unused "userId" private field.(íÃË8¤Ü’É-
+ksquid:UnusedPrivateMethodb":Remove this unused private "getFollowersObservers" method.(°‚ã£ıÿÿÿÿ8¤Ü’É-

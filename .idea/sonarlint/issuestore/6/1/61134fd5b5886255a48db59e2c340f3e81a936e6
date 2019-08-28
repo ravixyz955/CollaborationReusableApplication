@@ -1,0 +1,9 @@
+
+lsquid:UselessImportCheck"DRemove this unused import 'android.support.v4.app.FragmentActivity'.(¸­¯D8æù²ÿÈ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¨ÔÿÈ-
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ¸™áúÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+squid:S1319"vThe type of the "attachments" object should be an interface such as "List" rather than the implementation "ArrayList".(Şñ¯Ïÿÿÿÿÿ
+Lsquid:S1172"+Remove this unused method parameter "name".(ù®Ã³ıÿÿÿÿ8¨ÔÿÈ-
+—squid:S1319"vThe type of the "attachments" object should be an interface such as "List" rather than the implementation "ArrayList".(ù®Ã³ıÿÿÿÿ8à©ÕÿÈ-
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8à©ÕÿÈ-

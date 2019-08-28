@@ -1,0 +1,6 @@
+
+[squid:S1118":Add a private constructor to hide the implicit public one.(âäÕÒÿÿÿÿÿ8ô…–³È-
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ô…–³È-
+asquid:S2147"ECombine this catch with the one at line 176, which has the same body.(ä ¹€8ô…–³È-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ô…–³È-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ô…–³È-

@@ -1,0 +1,7 @@
+
+bsquid:UnusedPrivateMethod"9Remove this unused private "getWallPostsObserver" method.(Ïû²"8Ò¾¶øÊ-
+‡squid:S1450"fRemove the "collaborationAPIService" field and declare it as a local variable in the relevant methods.(­Ú²Þûÿÿÿÿ8Ò¾¶øÊ-
+msquid:S1450"QRemove the "id" field and declare it as a local variable in the relevant methods.(æ¨ç†8Ò¾¶øÊ-
+Bsquid:S1068"&Remove this unused "id" private field.(æ¨ç†8Ò¾¶øÊ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ê§î¤8Ò¾¶øÊ-
+\squid:S1068";Remove this unused "collaborationAPIService" private field.(­Ú²Þûÿÿÿÿ8Ò¾¶øÊ-

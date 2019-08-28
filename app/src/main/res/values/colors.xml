@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="theme_teal">#2ba78e</color>
+    <color name="theme_green">#80ba50</color>
+    <color name="theme_light_green">#b0c80a</color>
+
+    <color name="pieColor1">#fdd400</color>
+    <color name="pieColor2">#67b7dc</color>
+    <color name="pieColor3">#b0c80a</color>
+    <color name="pieColor4">#ddd</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#e2e3e5</color>
+    <color name="title_gray">#ddd</color>
+    <color name="divider_status_grid">#7087AA28</color>
+    <color name="dialpad_divider">#40AFAFAF</color>
+    <color name="home_tab_selected">#EFEFEF</color>
+    <color name="list_divider">#77AFAFAF</color>
+    <color name="dialer_alphabets">#AFAFAF</color>
+    <color name="dislike">#f44336</color>
+
+    <color name="dark_grey_1">#464646</color>
+    <color name="line_color">#fff</color>
+
+    <color name="light_green">#3eb74e</color>
+    <color name="light_purple">#8c61b3</color>
+    <color name="light_orange">#ffb500</color>
+    <color name="light_cyan">#00BCD4</color>
+    <color name="gray_text_hint">#86888A</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="active_blue">#33AAFF</color>
+    //Project background colors
+    <color name="dark_pink">#E74856</color>
+    <color name="light_blue">#0078D7</color>
+    <color name="dark_blue">#0099BC</color>
+    <color name="dark_grey">#7A7574</color>
+    <color name="dark_red">#E81123</color>
+    <color name="thick_blue">#0063B1</color>
+    <color name="thick_orange">#F7630C</color>
+    <color name="thick_grey">#5D5A58</color>
+    <color name="thick_pink">#EA005E</color>
+    <color name="light_layer_blue">#8E8CD8</color>
+    <color name="light_thick_grey">#68768A</color>
+    <color name="transparent_black">#55000000</color>
+    <color name="hashtagColor">#33AAFF</color>
+</resources>

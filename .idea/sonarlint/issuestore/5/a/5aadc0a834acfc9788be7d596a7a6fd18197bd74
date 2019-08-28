@@ -1,0 +1,5 @@
+
+Gsquid:S1172"+Remove this unused method parameter "name".(‹å­8û·ĞÿÈ-
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ¸™áúÿÿÿÿ8û·ĞÿÈ-
+nsquid:UselessImportCheck"ERemove this unused import 'android.support.v4.content.ContextCompat'.(¹†Ç8û·ĞÿÈ-
+lsquid:UselessImportCheck"DRemove this unused import 'android.support.v4.app.FragmentActivity'.(¸­¯D8û·ĞÿÈ-

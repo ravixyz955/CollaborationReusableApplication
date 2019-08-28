@@ -1,0 +1,8 @@
+
+Dsquid:S1068D"&Remove this unused "id" private field.(æ¨ç†8ä¡®óÉ-
+jsquid:CommentedOutCodeLineÅ"<This block of commented-out lines of code should be removed.(Ùïäè8ä¡®óÉ-
+usquid:S3776z"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ùòó¹ýÿÿÿÿ8ä¡®óÉ-
+vsquid:S3776Ñ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(®‹Æüÿÿÿÿ8ä¡®óÉ-
+jsquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(Ùïäè8ä¡®óÉ-
+osquid:S1450D"QRemove the "id" field and declare it as a local variable in the relevant methods.(æ¨ç†8ä¡®óÉ-
+jsquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(Ùïäè8ä¡®óÉ-

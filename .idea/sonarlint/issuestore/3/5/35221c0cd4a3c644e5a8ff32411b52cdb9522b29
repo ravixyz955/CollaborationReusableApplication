@@ -1,0 +1,4 @@
+
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ÉÎÍïýÿÿÿÿ8Ÿ­¶¸È-
+^squid:UnusedPrivateMethod"4Remove this unused private "getUsersSubList" method.(×ùþ†8Ÿ­¶¸È-
+Isquid:S1604"(Make this anonymous inner class a lambda(ç†É™ýÿÿÿÿ8Ÿ­¶¸È-

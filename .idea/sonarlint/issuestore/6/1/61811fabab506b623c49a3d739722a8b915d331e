@@ -1,0 +1,7 @@
+
+fsquid:UnusedPrivateMethod"7Remove this unused private "getMyPostsObserver" method.(«¤ùüÿÿÿÿ8½•²øÊ-
+\squid:S1068";Remove this unused "collaborationAPIService" private field.(­Ú²Şûÿÿÿÿ8½•²øÊ-
+Esquid:S1068"*Remove this unused "userId" private field.(íÃË8½•²øÊ-
+‡squid:S1450"fRemove the "collaborationAPIService" field and declare it as a local variable in the relevant methods.(­Ú²Şûÿÿÿÿ8½•²øÊ-
+psquid:S1450"URemove the "userId" field and declare it as a local variable in the relevant methods.(íÃË8½•²øÊ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚Öò¦üÿÿÿÿ8½•²øÊ-

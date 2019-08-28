@@ -1,0 +1,29 @@
+
+jsquid:S1192U"GDefine a constant instead of duplicating this literal "parent" 3 times.(‘ùÒáıÿÿÿÿ8’¡İêÌ-
+rsquid:S00116@"SRename this field "tag_line" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôüàü8’¡İêÌ-
+asquid:HiddenFieldChecké"7Rename "uri" which hides the field declared at line 71.(‡‰Ò­8’¡İêÌ-
+}squid:S00116?"YRename this field "chipsinput_tag" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œè•Çüÿÿÿÿ8’¡İêÌ-
+bsquid:S1155ô">Use isEmpty() to check whether the collection is empty or not.(ñ‡§Æÿÿÿÿÿ8’¡İêÌ-
+Bsquid:S1659C"$Declare "camera" on a separate line.(ûæ¯º8’¡İêÌ-
+wsquid:S00116A"XRename this field "ed_createpost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ€óØ8’¡İêÌ-
+„squid:S00116H"`Rename this field "container_attachments" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ƒÆşÿÿÿÿ8’¡İêÌ-
+Fsquid:S1148e"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8’¡İêÌ-
+Ssquid:S1066†"/Merge this if statement with the enclosing one.(Œîøıÿÿÿÿ8’¡İêÌ-
+‚squid:S00116F"^Rename this field "ATTACH_FILE_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àéŞøÿÿÿÿ8’¡İêÌ-
+Fsquid:S1659C"(Declare "attachment" on a separate line.(ûæ¯º8’¡İêÌ-
+psquid:S1450C"RRemove the "tag" field and declare it as a local variable in the relevant methods.(ûæ¯º8’¡İêÌ-
+ƒsquid:S00116O"_Rename this field "chipsinput_container" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÍ¦§üÿÿÿÿ8’¡İêÌ-
+ƒsquid:S00116E"_Rename this field "CAMERA_IMAGE_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜‰Û®ùÿÿÿÿ8’¡İêÌ-
+wsquid:S1450P"YRemove the "close_post" field and declare it as a local variable in the relevant methods.(¶°´¦8’¡İêÌ-
+asquid:HiddenFieldCheckú"7Rename "uri" which hides the field declared at line 71.(úÜÆ˜8’¡İêÌ-
+vsquid:S3776»"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ÉÎÍïıÿÿÿÿ8’¡İêÌ-
+\squid:S1155ù">Use isEmpty() to check whether the collection is empty or not.(ì¥ôe8’¡İêÌ-
+_squid:S1126à"AReplace this if-then-else statement by a single return statement.(ïĞ“a8’¡İêÌ-
+asquid:HiddenFieldCheckÆ"7Rename "tag" which hides the field declared at line 67.(¾àé8’¡İêÌ-
+wsquid:S1450C"YRemove the "attachment" field and declare it as a local variable in the relevant methods.(ûæ¯º8’¡İêÌ-
+¥squid:S1186§"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…†±Úÿÿÿÿÿ8’¡İêÌ-
+tsquid:S00116P"URename this field "close_post" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶°´¦8’¡İêÌ-
+ssquid:S1450C"URemove the "camera" field and declare it as a local variable in the relevant methods.(ûæ¯º8’¡İêÌ-
+jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(©ö¸û8’¡İêÌ-
+ysquid:S1450B"VRemove the "btnSend" field and declare it as a local variable in the relevant methods.(¡¼‚Âûÿÿÿÿ8’¡İêÌ-
+asquid:HiddenFieldCheckô"7Rename "tag" which hides the field declared at line 67.(¾àé8’¡İêÌ-

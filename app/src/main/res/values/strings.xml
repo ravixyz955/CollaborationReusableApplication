@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="PrivateResource">Collaboration</string>
+    <string name="hint_email">Email</string>
+    <string name="signin">SIGNIN</string>
+    <string name="password">Password</string>
+    <string name="hint_title">Title</string>
+
+    <string name="comment_text">comment text</string>
+    <string name="replies_count">0</string>
+    <string name="replies_txt">Replies</string>
+    <string name="reply_txt">Reply</string>
+    <string name="time_txt">time</string>
+    <string name="add_attachment"><a href="">Add attachment</a></string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="hint_subject">subject</string>
+    <string name="hint_body">body</string>
+    <string name="project_name">project name</string>
+    <string name="name_txt">Name:</string>
+    <string name="start_txt">Start</string>
+    <string name="finish_txt">Finish</string>
+    <string name="planned_start_date">Planned start date</string>
+    <string name="planned_finish_date">Planned finish date</string>
+    <string name="_0">0</string>
+    <string name="attachments"><u>Attachments</u></string>
+    <string name="tagged_users"><u>Tagged users</u></string>
+    <string name="no_tags">No tags found!</string>
+    <string name="no_attachments">No attachments found!</string>
+    <string name="tv_nodiscussions">There are no discussions in this topic!</string>
+    <string name="to">To</string>
+    <string name="create">Create</string>
+    <string name="create_post">create post</string>
+    <string name="attherate">\@</string>
+    <string name="send">Send</string>
+    <string name="visibility">Please select visibility type</string>
+    <string name="disablefileuriexposure">disableDeathOnFileUriExposure</string>
+    <string name="create_txt">Create</string>
+    <string name="attachments_user_tags">Add tags>>></string>
+    <string name="empty_tagged_users">Empty tagged users</string>
+    <string name="start_typing">Start typing ...</string>
+    <string name="hint_name">Full Name</string>
+    <string name="title">Title</string>
+    <string name="hello">hello</string>
+</resources>

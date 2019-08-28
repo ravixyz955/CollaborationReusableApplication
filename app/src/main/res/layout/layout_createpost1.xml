@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bottom_sheet_corner"
+        android:hint="@string/title"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/close_post"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnusedAttribute" />
+
+    <ImageView
+        android:id="@+id/close_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close_white_24dp"
+        tools:ignore="ContentDescription" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_overlay"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView_createpost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/close_post" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="10dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="10dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView_createpost"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/layout_bottom"
+        app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/view3">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/to"
+                app:layout_constraintBottom_toTopOf="@+id/spinner_users_visibility"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinner_users_visibility"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/emp_reg_bg"
+                android:entries="@array/users"
+                android:padding="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/chipsinput_visibility"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <com.pchmn.materialchips.ChipsInput
+                android:id="@+id/chipsinput_visibility"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/md_grey_400"
+                android:padding="3dp"
+                android:visibility="visible"
+                app:chip_backgroundColor="@null"
+                app:chip_deletable="true"
+                app:chip_deleteIconColor="@null"
+                app:chip_detailed_textColor="@android:color/holo_red_dark"
+                app:chip_hasAvatarIcon="true"
+                app:chip_labelColor="@null"
+                app:filterable_list_backgroundColor="@null"
+                app:filterable_list_textColor="@null"
+                app:hint="Search visibility user(s)"
+                app:hintColor="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/visibility_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_users_visibility"
+                app:maxRows="2"
+                app:showChipDetailed="false"
+                app:textColor="@color/white"
+                tools:targetApi="lollipop" />
+
+            <View
+                android:id="@+id/visibility_line"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/chipsinput_visibility"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/ed_createpost"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/chipsinput_visibility" />
+
+            <EditText
+                android:id="@+id/ed_createpost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_corner_emp"
+                android:gravity="top|start"
+                android:hint="@string/create_post"
+                android:imeOptions="actionNext"
+                android:inputType="textMultiLine"
+                android:minLines="8"
+                android:padding="10dp"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toTopOf="@+id/chipsinput_user_tags"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/visibility_line" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/chipsinput_user_tags"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_corner_emp"
+                android:orientation="vertical"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/chipsinput_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ed_createpost">
+
+                <TextView
+                    android:id="@+id/tv_add_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    android:text="@string/attachments_user_tags"
+                    android:textColor="@color/dark_blue"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:padding="5dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/chipsinput_user_tags"
+                    app:layout_constraintEnd_toEndOf="@id/chipsinput_user_tags"
+                    app:layout_constraintStart_toStartOf="@+id/chipsinput_user_tags"
+                    app:layout_constraintTop_toBottomOf="@id/tv_add_tags">
+
+                    <LinearLayout
+                        android:id="@+id/container_user_tags"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:divider="@drawable/empty_attachment_divider"
+                        android:orientation="horizontal"
+                        android:showDividers="middle" />
+
+                </HorizontalScrollView>
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/chipsinput_container"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/chipsinput_user_tags"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_corner_emp"
+                android:orientation="vertical"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/chipsinput_user_tags">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/attachments" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/container_attachments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:divider="@drawable/empty_attachment_divider"
+                        android:orientation="horizontal"
+                        android:showDividers="middle" />
+
+                </HorizontalScrollView>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/md_grey_200"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/tag"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/attachment"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            app:srcCompat="@drawable/ic_tag"
+            tools:ignore="ContentDescription,NestedWeights" />
+
+        <ImageView
+            android:id="@+id/attachment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/camera"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_attach_file_black_24dp"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/btnSend"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:tint="@color/theme_teal"
+            app:srcCompat="@drawable/ic_menu_camera"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnSend"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_corner_emp"
+            android:backgroundTint="@color/colorPrimary"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:text="@string/send"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

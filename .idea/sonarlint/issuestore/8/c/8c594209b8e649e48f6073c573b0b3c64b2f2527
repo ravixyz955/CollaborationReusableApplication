@@ -1,0 +1,8 @@
+
+gsquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(Ü—Šîþÿÿÿÿ
+Qsquid:S1068,"5Remove this unused "projectAPIService" private field.(þ’Œåûÿÿÿÿ
+™squid:S1186³"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ž¦›Í
+|squid:S1450,"`Remove the "projectAPIService" field and declare it as a local variable in the relevant methods.(þ’Œåûÿÿÿÿ
+™squid:S1186©"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ú®ä
+psquid:UnusedPrivateMethodz"?Remove this unused private "getUsersDisposableObserver" method.(èÒâøÿÿÿÿ8“®äÖÊ-
+žsquid:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½Ä³ïþÿÿÿÿ

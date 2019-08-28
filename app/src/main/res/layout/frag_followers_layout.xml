@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:visibility="visible">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/followers_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        tools:context="com.xyz.xyzone.fragment.FollowersFragment" />
+
+    <TextView
+        android:id="@+id/nofollowers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/tv_nodiscussions"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <include layout="@layout/progress_bar" />
+
+</android.support.design.widget.CoordinatorLayout>

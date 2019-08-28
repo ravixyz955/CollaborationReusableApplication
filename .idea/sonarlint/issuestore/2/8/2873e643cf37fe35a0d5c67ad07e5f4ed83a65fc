@@ -1,0 +1,9 @@
+
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×çñ´
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ½Ñ÷üÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÈö›ýÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÞÛ€ûÿÿÿÿ
+usquid:S00116"ZRename this field "actual_progress" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üº‘êýÿÿÿÿ
+qsquid:S00116"[Rename this field "planned_progress" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øàíí
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ½Ñ÷üÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÞÛ€ûÿÿÿÿ
